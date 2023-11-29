@@ -10,9 +10,9 @@ describe('ZoeFin Website Test reschedule', () => {
 
     //re---schedule
 
-    //select date
+    //select date note day should mod befer run to the next date
 
-    cy.get('[data-testid="calendar-day-23"] > span').click();
+    cy.get('[data-testid="calendar-day-30"] > span').click();
     
     cy.get('.styles-module_timesContainer__0JX0d').should('be.visible');
     cy.get('.ZUIDropdown__main-selector').click();
