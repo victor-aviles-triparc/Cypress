@@ -28,14 +28,13 @@ describe('ZoeFin Website Test reschedule', () => {
     cy.get('.styles_modalDashboard__container__ZCOKO > .meeting > .meeting__title').should('be.visible');
 
     // fill data
+    cy.wait (3000);
+    cy.get('#name').should('be.visible').clear().type("Victor The Best");
+    cy.get('#last_name').should('be.visible').clear().type("QA");
+    cy.get('#email').should('be.visible').clear().type("v@aviles.com");
+    cy.get('#phone_number').should('be.visible').clear().type("3219972900");
+    cy.get('.styles_confirmationSchedule__cta__sRqTe > .ZUIButton--primary').should('be.visible').click();
     
-    cy.get('#name').clear().type("Victor The Best");
-    cy.get('#last_name').clear().type("QA");
-    cy.get('#email').clear().type("v@aviles.com");
-    cy.get('#phone_number').clear().type("3013254182");
-    cy.get('.styles_confirmationSchedule__cta__sRqTe > .ZUIButton--primary').click();
-
-
 
 // test result 
 
