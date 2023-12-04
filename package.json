@@ -45,7 +45,7 @@
     "concat-map": "^0.0.1",
     "core-util-is": "^1.0.2",
     "cross-spawn": "^7.0.3",
-    "cypress": "^13.5.0",
+    "cypress": "^13.6.0",
     "dashdash": "^1.14.1",
     "dayjs": "^1.11.10",
     "debug": "^4.3.4",
@@ -144,6 +144,7 @@
     "rxjs": "^7.8.1",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
+    "save-dev": "^0.0.1-security",
     "semver": "^7.5.4",
     "set-function-length": "^1.1.1",
     "shebang-command": "^2.0.0",
@@ -176,10 +177,8 @@
     "yallist": "^4.0.0",
     "yauzl": "^2.10.0"
   },
-  "devDependencies": {},
   "scripts": {
     "cypress:open": "cypress open"
-        
   },
   "author": "victor aviles",
   "license": "ISC"
